@@ -1,0 +1,113 @@
+body{
+  /*background-color:#E8E8E8;*/
+  font-family:"Garamond";
+}
+
+.content{
+  margin:100px;
+  padding:40px;
+  background-color:#52658F;
+  border-radius:20px;
+}
+
+.navbar{
+  background-color:#E8E8E8;
+  border-radius:10px;
+  padding:10px;
+
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#headshot{
+  width:170px;
+  border-radius:10px;
+}
+
+button{
+  height:30px;
+  width:140px;
+  border-radius:5px;
+  background-color:#333A56;
+  color:#E8E8E8;
+}
+
+#index_info{
+  background-color:#333A56;
+  color:#E8E8E8;
+  padding:10px;
+  border-radius:10px;
+}
+
+#education_info{
+  background-color:#333A56;
+  color:#52658F;
+  padding:20px;
+  border-radius:10px;
+}
+
+.education_section{
+  background-color:#E8E8E8;
+  border-radius:10px;
+
+  margin:10px;
+
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.education_section p{
+  font-size: 20px;
+}
+
+#experience_info{
+  background-color:#333A56;
+  color:#52658F;
+  padding:20px;
+  border-radius:10px;
+}
+
+.experience_section{
+  background-color:#E8E8E8;
+  border-radius:10px;
+  padding:10px;
+  margin:10px;
+
+  display:flex;
+  flex-direction:column;
+}
+
+.experience_section p{
+  font-size:20px;
+}
+
+#project_info{
+  background-color:#333A56;
+  color:#52658F;
+  padding:20px;
+  border-radius:10px;
+}
+
+.project_section{
+  background-color:#E8E8E8;
+  border-radius:10px;
+  padding:10px;
+  margin:10px;
+
+  display:flex;
+  flex-direction:column;
+}
+
+.project_section p{
+  font-size:20px;
+}
+
+#contactinfo{
+  background-color:#333A56;
+  color:#E8E8E8;
+  padding:20px;
+  border-radius:10px;
+}
